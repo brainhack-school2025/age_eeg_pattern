@@ -7,17 +7,19 @@
 
 First year PhD student at Institute of Medical Science at University of Toronto. My thesis focuses on multi-omic characterization of cell-type specific pathway for bipolar disorder using a Whole Person and Population Modelling modelling approach.
 
+Team members: Amanda/Tianyi Liu, Ingrid Campbell, Institute of Medical Science, University of Toronto
+
 ## Background
 
 Attention Deficit Hyperactivity Disorder (ADHD) is a neurodevelopmental and psychiatric disorder that exhibits significant age-related changes throughout development. Electroencephalography (EEG) has emerged as a powerful neuroimaging technique for extracting neural features and patterns associated with ADHD, particularly theta-beta ratios and alpha peak frequency variations.
 
-While machine learning approaches have shown promise for age prediction using neural data, there remains a critical gap in developing treatments based on EEG patterns and age-specific considerations for individuals with ADHD. Current research has established that EEG biomarkers change across the lifespan, but the relationship between these developmental patterns and treatment response remains poorly understood.
+While machine learning approaches have shown promise for age prediction using neural data, there remains a critical gap in developing treatments based on EEG patterns and age-specific considerations for individuals with ADHD. Current literature has shown that EEG biomarkers change across the lifespan, but the relationship between these developmental patterns and treatment response remains poorly understood.
 
 ## Objectives
 
-1. **Characterize age-related EEG patterns in treatment response**
-2. **Assess age-specificity of EEG-based treatment prediction**
-3. **Identify EEG signatures of neurofeedback treatment response across development**
+1. Characterize age-related EEG patterns in treatment response
+2. Assess age-specificity of EEG-based treatment prediction
+3. Identify EEG signatures of neurofeedback treatment response across development
 
 ## Data
 
@@ -46,7 +48,7 @@ Jupyter notebooks
 
 ## Pipeline
 
-1. Data preprocessing
+1. **Data preprocessing**
     - Artifact identification, removal and cleaning
     - Epoching of continuous EEG data
     - Feature extraction (frequency bands, power ratios)
@@ -76,13 +78,11 @@ Jupyter notebooks
 │   └── running_analysis.ipynb       # Main analysis pipeline
 ```
 
-**Notebook Descriptions:**
-
 - **`pre-process-py.ipynb`**: Python preprocessing workflow including data loading, feature extraction, and demographic integration
 - **`pre-process.ipynb`**: R preprocessing workflow with statistical analysis and age-stratified preparation
 - **`running_analysis.ipynb`**: Main analysis pipeline with machine learning model development, feature selection, and age-related pattern visualizations
 
-## Key Results
+## Results
 
 **Model Performance:**
 
@@ -105,5 +105,4 @@ Jupyter notebooks
 ## Acknowledgments
 
 - **Data Source**: [Brainclinics Foundation](https://brainclinics.com/) for providing the TDBrain dataset and preprocessing pipeline
-- **Community**: [BrainHack School](https://school.brainhackmtl.org/) for supporting this collaborative research
-- **Authors**: Amanda/Tianyi Liu and Ingrid Campbell, Institute of Medical Science, University of Toronto
+- **Community**: [BrainHack School](https://school.brainhackmtl.org/)
